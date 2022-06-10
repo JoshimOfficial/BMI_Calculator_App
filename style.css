@@ -1,0 +1,47 @@
+body {
+    background-color: #222f3e;
+    color: white;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+
+.card {
+    background: #1b2734;
+}
+
+.user_input_sec {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.second_sec {
+    display: none;
+    opacity: 0;
+    transition: 1s;
+}
+
+.first_sec {
+transition: 1s;
+}
+
+.bmi_numner {
+    font-size: 100px;
+    text-align: center;
+}
+
+.bmi_text {
+    font-size: 20px;
+}
+
+.bmi_advise {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bmi_advise {
+    color: #5999dd;
+}

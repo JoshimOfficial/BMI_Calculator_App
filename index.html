@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BMI Calculator App </title>
+    <link rel="shortcut icon" href="img/fav/ic.svg" type="image/x-icon">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main">
+            <div class="first_sec">
+                <div class="card">
+                    <div class="card-header">BMI Calculator</div>
+                    <div class="card-body">
+                        <div class="user_input_sec">
+                            <div class="inputs">
+                                <input type="number" class="form-control user_foot" placeholder="Enter height (foot)"/><br>
+                                <input type="number" class="form-control user_inch" placeholder="Enter height (inch)"/><br>
+                                <input type="number" class="form-control user_kg" placeholder="Enter weight (KG)"/><br>
+                            </div>
+                            <div class="btn_sec">
+                                <input type="submit" class="btn btn-primary chk_bmi" value="Get BMI"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+
+
+            <div class="second_sec">
+                <div class="card">
+                    <div class="card-header">
+                        BMI Calculator
+                    </div>
+                    <div class="card-body">
+                        <div class="bmi_text">Your BMI is: </div>
+                    <div class="bmi_numner">0.00</div>
+                    <div class="bmi_advise">Not_available</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
